@@ -1,0 +1,56 @@
+body{
+margin: 0;
+padding: 0;
+}
+.block-one{
+    background-image: url(./images/bgc.png);
+height: 700px;
+background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+padding: 33px 0px 33px 0px;
+
+}
+.navigator ul{
+    display: flex;
+    list-style: 50px;
+}
+.navigator ul li {
+margin-right: 40px;
+font-family: cursive;
+font-weight: 700;
+color: white;
+transition: 2s;
+}
+.logo{
+    width: 150px;
+    height: 24px;
+    margin-left: 120px;
+
+}
+.navigator ul li:hover{
+    color: aqua;
+
+}
+.block{
+    width: 150px;
+    height: 175px;
+    border: 2px solid;
+
+}
+.item-one{
+  background-color: palevioletred;
+
+}
+.block-onegroup{
+    display:flex;
+    width: 550px;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    justify-content: space-around;
+
+}
